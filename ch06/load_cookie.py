@@ -7,6 +7,7 @@ import urllib2
 
 url = 'https://ssp.scnu.edu.cn/Default.aspx'
 
+
 cookie = cookielib.MozillaCookieJar()
 cookie.load('cookie.txt', ignore_discard=True, ignore_expires=True)
 request = urllib2.Request('https://ssp.scnu.edu.cn/Default.aspx')
